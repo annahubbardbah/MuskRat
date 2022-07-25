@@ -22,7 +22,7 @@ https://www.kaggle.com/datasets/yihaopuah/deep-fake-images/download?datasetVersi
 * Reads Validation data from './dataset/archive/val' 
 * X_val.pickle
 * y_val.pickle
-* Defines Python Functions 
+### Defines Python Functions 
 ### def read_data(directory_name, x_list):
 * Function returns list of [image data, class]  within given directory 
 ## from_pickle_load_then_predict.ipynb
@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/yihaopuah/deep-fake-images/download?datasetVersi
 * All *.h5 models are variations of the same model architecture trained on a different quarter of the 2GB Dataset
 * Reads in a Test Set to use as input for model predictions
 * Reads images from './test_internet/fake_image' and './test_internet/real_image'
-* Defines Python Functions 
+### Defines Python Functions 
 ### def accuracy_results():
 * Displays the following metrics associated within a testing image dataset
 * most_freq is the most frequent classification per image of all 5 models
