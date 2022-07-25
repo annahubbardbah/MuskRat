@@ -43,17 +43,16 @@ https://www.kaggle.com/datasets/yihaopuah/deep-fake-images/download?datasetVersi
 * Displays the image in the testing dataset './test_internet' stored in the model_data array 
 * Displays the corresponding metrics for that input image 
 * Example:
-* <Figure>
 
-* True Classification: 
-* real_image
+> True Classification: 
+> real_image
 
-* Aggregate Classification: 
-* real_image
+> Aggregate Classification: 
+> real_image
 
-* Individual Model(s) Classification: 
-* Model 1: real_image
-* Model 2: real_image
-* Model 3: real_image
-* Model 4: fake_image
-* Model 5: real_image
+> Individual Model(s) Classification: 
+> Model 1: real_image
+> Model 2: real_image
+> Model 3: real_image
+> Model 4: fake_image
+> Model 5: real_image
